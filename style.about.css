@@ -16,7 +16,7 @@ body {
   
 #navbar {
     display: flex;
-    height: 56px;
+    height: auto;
     align-items: center;
     justify-content: space-between;
     background-color: #C13D4C;
@@ -28,7 +28,6 @@ body {
   
 #navigation {
     display: flex;
-    width: 40%;
     align-items: center;
     height: auto;
     justify-content: flex-end;
