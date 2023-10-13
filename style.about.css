@@ -16,7 +16,7 @@ body {
   
 #navbar {
     display: flex;
-    height: auto;
+    height: 56px;
     align-items: center;
     justify-content: space-between;
     background-color: #C13D4C;
@@ -28,6 +28,7 @@ body {
   
 #navigation {
     display: flex;
+    width: 40%;
     align-items: center;
     height: auto;
     justify-content: flex-end;
@@ -114,7 +115,7 @@ a p {
 .wrap {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -128,23 +129,23 @@ a p {
   
 .hid-box {
     display: flex;
+    flex-direction: row;
     position: relative;
     flex: 1 0 100%;
     align-items: center;
-    justify-content: flex-start;
-    overflow: none;
+    height: 56px;
+    overflow: auto;
     opacity: 0;
-    transform: translateX(0);
+    transform: translateX(-40%);
     transition: 1s ease;
-    margin: 0;
-    padding: 0;
+    margin-left: 1em;
     font-family: 'Sora', sans-serif;
     color: #F5F0DD;
     font-size: 24px;
 }
   
 .box:hover ~ .hid-box, .hid-box:hover {
-    transform: translateX(30px);
+    transform: translateX(-5%);
     opacity: 1;
 }
 
@@ -174,7 +175,7 @@ a p {
       transform: translateX(2px) translateY(-9px);
     }
     99% {
-      transform: translateX(2px) translateY(-5px);
+      transform: translateX(2px) translateY(-4px);
     }
 }
 
