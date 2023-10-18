@@ -159,7 +159,7 @@ a p {
     transform: translateX(2px) translateY(-6px);
 }
   
-#ball:hover {
+#logowrap:hover > #ball {
     animation: bounce 0.75s linear infinite;
     cursor: pointer;
 }
